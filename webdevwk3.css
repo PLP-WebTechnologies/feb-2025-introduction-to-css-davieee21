@@ -1,0 +1,105 @@
+/* Apply global styles */
+body {
+    font-family: 'Arial', sans-serif; /* Setting a clean, modern font */
+    background-color: #f4f4f4; /* Light background color */
+    color: #333; /* Dark text for good contrast */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styling for the header */
+  header {
+    background-color: #4CAF50; /* Green background for the header */
+    color: white; /* White text */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #333; /* Border at the bottom */
+  }
+  
+  /* Styling for the main section */
+  main {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff; /* White background for the main content */
+    border-radius: 8px; /* Rounded corners for the main section */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+  }
+  
+  /* Styling for an image with class .featured-image */
+  .featured-image {
+    width: 100%; /* Make image full-width */
+    max-width: 600px; /* Max width to prevent it from becoming too large */
+    border-radius: 8px; /* Rounded corners */
+    margin: 20px 0; /* Margin above and below the image */
+    display: block; /* Ensure it's displayed as a block */
+    border: 5px solid #ddd; /* Light border around the image */
+  }
+  
+  /* Styling for the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Space between the table and the content */
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd; /* Light gray border for table cells */
+    text-align: left;
+  }
+  
+  th {
+    background-color: #4CAF50; /* Green background for table headers */
+    color: white;
+  }
+  
+  /* Styling for the form */
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="password"],
+  form input[type="date"],
+  form select,
+  form input[type="radio"],
+  form input[type="checkbox"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    width: auto;
+    margin-top: 10px;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green when hovered */
+  }
+  
+  /* Styling for footer */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
